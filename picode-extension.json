@@ -1,19 +1,26 @@
 {
   "id": "picode-tunnel-tailscale",
   "name": "Tailscale",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "apiVersion": 7,
   "publisher": "COGNIX[WS]",
+  "icon": "ui/tailscale.svg",
   "description": "Reach COGNIX[WS] over your Tailscale network at this computer's MagicDNS name, with a certificate the phone already trusts.",
   "tunnel": {
     "name": "Tailscale",
     "kind": "network",
     "statusPath": "/status"
   },
-  "permissions": ["tunnel:certificate"],
+  "permissions": [
+    "tunnel:certificate"
+  ],
   "process": {
     "command": "node",
-    "args": ["${extensionDir}/server/main.mjs"]
+    "args": [
+      "${extensionDir}/server/main.mjs"
+    ]
   },
-  "activation": { "instance": true }
+  "activation": {
+    "instance": true
+  }
 }
