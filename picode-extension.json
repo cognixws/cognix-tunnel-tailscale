@@ -1,5 +1,6 @@
 {
-  "id": "picode-tunnel-tailscale",
+  "id": "tunnel-tailscale",
+  "formerly": ["picode-tunnel-tailscale"],
   "name": "Tailscale",
   "version": "0.1.1",
   "apiVersion": 7,
