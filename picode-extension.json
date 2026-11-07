@@ -1,7 +1,10 @@
 {
-  "id": "picode-tunnel-tailscale",
+  "id": "tunnel-tailscale",
+  "formerly": [
+    "picode-tunnel-tailscale"
+  ],
   "name": "Tailscale",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "apiVersion": 7,
   "publisher": "COGNIX[WS]",
   "icon": "ui/tailscale.svg",
